@@ -2,11 +2,33 @@
 <html>
   {% include 'partials/head'%}
   <body>
-    <header>
-      <h1>{{ message }}</h1>
-    </header>
+    {% include 'partials/header'%}</h1>
     <main>
-      
+    <section>
+      <ul aria-label="Selecteer een kledingstuk om te matchen">
+          <h2>Selecteer een kledingstuk om te matchen</h2>
+          <li><a href="#jassen" tabindex="0" aria-label="Jassen">Jassen</a></li>
+          <li><a href="#broeken" tabindex="0" aria-label="Broeken">Broeken</a></li>
+          <li><a href="#shirts" tabindex="0" aria-label="Shirts">Shirts</a></li>
+          <li><a href="#rokken" tabindex="0" aria-label="Rokken">Rokken</a></li>
+          <li><a href="#truien" tabindex="0" aria-label="Truien">Truien</a></li>
+          <li><a href="#blouses" tabindex="0" aria-label="Blouses">Blouses</a></li>
+          <li><a href="#vesten" tabindex="0" aria-label="Vesten">Vesten</a></li>
+          <li><a href="#schoenen" tabindex="0" aria-label="Schoenen">Schoenen</a></li>
+        </ul>
+
+      <ul aria-label="Voorgestelde kledingstukken om te matchen">
+        <h2>Voorgestelde kledingstukken om te matchen</h2>
+        <li><a href="#matchendeJassen" tabindex="0" aria-label="Matchende jassen">Matchende jassen</a></li>
+        <li><a href="#matchendeBroeken" tabindex="0" aria-label="Matchende broeken">Matchende broeken</a></li>
+        <li><a href="#matchendeShirts" tabindex="0" aria-label="Matchende shirts">Matchende shirts</a></li>
+        <li><a href="#matchendeRokken" tabindex="0" aria-label="Matchende rokken">Matchende rokken</a></li>
+        <li><a href="#matchendeTruien" tabindex="0" aria-label="Matchende truien">Matchende truien</a></li>
+        <li><a href="#matchendeBlouses" tabindex="0" aria-label="Matchende blouses">Matchende blouses</a></li>
+        <li><a href="#matchendeVesten" tabindex="0" aria-label="Matchende vesten">Matchende vesten</a></li>
+        <li><a href="#matchendeSchoenen" tabindex="0" aria-label="Matchende schoenen">Matchende schoenen</a></li>
+      </ul>
+      </section>
     </main>
   </body>
 </html>
