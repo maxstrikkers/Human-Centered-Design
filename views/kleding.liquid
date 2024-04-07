@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {% include 'partials/head'%}
+  <body>
+    {% include 'partials/header'%}</h1>
+    <main>
+      <h2>Kies je Kleding</h2>
+      <ul>
+        {% for kledingstuk in clothes.kledingDetails %}
+          <li tabindex="0">
+            <h3>{{ kledingstuk.type }}</h3>
+            <p>Beschrijving: {{ kledingstuk.beschrijving }}</p>
+            <p>Kleur: {{ kledingstuk.kleur }}</p>
+            <p>Categorie: {{ kledingstuk.categorie }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </main>
+  </body>
+</html>

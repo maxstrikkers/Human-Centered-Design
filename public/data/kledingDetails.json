@@ -1,0 +1,63 @@
+ { "kledingDetails": [
+    {
+      "type": "Jas",
+      "beschrijving": "Lichtgewicht windjack met capuchon, waterafstotend materiaal, ideaal voor overgangsweer.",
+      "kleur": "Navy",
+      "categorie": "Jassen"
+    },
+    {
+      "type": "Jas",
+      "beschrijving": "Dikke parkajas met gevoerde binnenzijde en afneembare bontkraag, perfect voor koude winterdagen.",
+      "kleur": "Zwart",
+      "categorie": "Jassen"
+    },
+    {
+      "type": "Jas",
+      "beschrijving": "Klassieke trenchcoat, dubbelgeknoopt met riem, waterbestendig, een tijdloze keuze voor regenachtige dagen.",
+      "kleur": "Beige",
+      "categorie": "Jassen"
+    },
+    {
+      "type": "Broek",
+      "beschrijving": "Rechte jeans van duurzaam denim, klassieke pasvorm met vijf zakken, veelzijdig voor dagelijks gebruik.",
+      "kleur": "Indigo",
+      "categorie": "Broeken"
+    },
+    {
+      "type": "Broek",
+      "beschrijving": "Chino broek met slanke pasvorm, gemaakt van zacht katoen, ideaal voor casual kantooroutfits.",
+      "kleur": "Khaki",
+      "categorie": "Broeken"
+    },
+    {
+      "type": "Broek",
+      "beschrijving": "Joggingbroek met trekkoord, comfortabele katoenmix, perfect voor relaxte weekenden.",
+      "kleur": "Grijs",
+      "categorie": "Broeken"
+    },
+    {
+      "type": "Shirt",
+      "beschrijving": "Katoenen polo met korte mouwen, kraag met twee knopen, verkrijgbaar in diverse kleuren.",
+      "kleur": "Wit",
+      "categorie": "Shirts"
+    },
+    {
+      "type": "Shirt",
+      "beschrijving": "Flanellen overhemd met lange mouwen, geruit patroon, warm en ideaal voor herfstweer.",
+      "kleur": "Rood en Zwart",
+      "categorie": "Shirts"
+    },
+    {
+      "type": "Shirt",
+      "beschrijving": "Linnen shirt met lange mouwen, ademend materiaal, losse pasvorm, perfect voor hete zomerdagen.",
+      "kleur": "Lichtblauw",
+      "categorie": "Shirts"
+    },
+    {
+      "type": "Rok",
+      "beschrijving": "Minirok met A-lijn silhouet, denim materiaal, voorzien van knoopsluiting aan de voorkant.",
+      "kleur": "Donkerblauw",
+      "categorie": "Rokken"
+    }
+  ]
+}

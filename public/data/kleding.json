@@ -1,0 +1,18 @@
+{
+    "kledingstukken": [
+        {"type": "jas", "categorie": "bovenkleding"},
+        {"type": "top", "categorie": "bovenkleding"},
+        {"type": "broek", "categorie": "onderkleding"},
+        {"type": "rok", "categorie": "onderkleding"},
+        {"type": "trui", "categorie": "bovenkleding"},
+        {"type": "blouse", "categorie": "bovenkleding"},
+        {"type": "vest", "categorie": "bovenkleding"},
+        {"type": "jeans", "categorie": "onderkleding"},
+        {"type": "short", "categorie": "onderkleding"},
+        {"type": "legging", "categorie": "onderkleding"},
+        {"type": "joggingbroek", "categorie": "onderkleding"},
+        {"type": "sjaal", "categorie": "accessoires"},
+        {"type": "hoed", "categorie": "accessoires"},
+        {"type": "handschoenen", "categorie": "accessoires"}
+    ]
+}
