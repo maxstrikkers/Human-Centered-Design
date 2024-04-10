@@ -15,15 +15,11 @@
         <fieldset aria-label="Voorgestelde kledingstukken om te matchen">
           <legend>Voorgestelde kledingstukken om te matchen</legend>
           {% for kledingtype in kledingTypes %}
-            <label><input type="radio" name="voorgesteldKledingstuk" value="matchende{{ kledingtype.type }}" tabindex={{ forloop.index }}>{{ kledingtype.type }}</label>
+            <label><input type="radio" name="voorgesteldKledingstuk" value={{ kledingtype.type }} tabindex={{ forloop.index }}>{{ kledingtype.type }}</label>
           {% endfor %}
         </fieldset>
       
-        <input type="submit" value="Submit" aria-label="Druk op deze knop om verder te gaan" tabindex="17">
-      </form>
-      <form>
-
-      </form>
+        <input type="submit" value="Submit" aria-label="Druk op deze knop om verder te gaan" tabindex="{{ loopCount | plus: 1 }}">      </form>
     </main>
   </body>
 </html>

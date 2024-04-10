@@ -1,18 +1,18 @@
 {
     "kledingstukken": [
-        {"type": "jassen", "categorie": "bovenkleding"},
-        {"type": "tops", "categorie": "bovenkleding"},
-        {"type": "broeken", "categorie": "onderkleding"},
-        {"type": "rokken", "categorie": "onderkleding"},
-        {"type": "truien", "categorie": "bovenkleding"},
-        {"type": "blouses", "categorie": "bovenkleding"},
-        {"type": "vesten", "categorie": "bovenkleding"},
-        {"type": "jeans", "categorie": "onderkleding"},
-        {"type": "shorts", "categorie": "onderkleding"},
-        {"type": "leggings", "categorie": "onderkleding"},
-        {"type": "joggingbroeken", "categorie": "onderkleding"},
-        {"type": "sjaals", "categorie": "accessoires"},
-        {"type": "hoeden", "categorie": "accessoires"},
-        {"type": "handschoenen", "categorie": "accessoires"}
+        {"type": "Jassen", "categorie": "bovenkleding"},
+        {"type": "Tops", "categorie": "bovenkleding"},
+        {"type": "Broeken", "categorie": "onderkleding"},
+        {"type": "Rokken", "categorie": "onderkleding"},
+        {"type": "Truien", "categorie": "bovenkleding"},
+        {"type": "Blouses", "categorie": "bovenkleding"},
+        {"type": "Vesten", "categorie": "bovenkleding"},
+        {"type": "Jeans", "categorie": "onderkleding"},
+        {"type": "Shorts", "categorie": "onderkleding"},
+        {"type": "Leggings", "categorie": "onderkleding"},
+        {"type": "Joggingbroeken", "categorie": "onderkleding"},
+        {"type": "Sjaals", "categorie": "accessoires"},
+        {"type": "Hoeden", "categorie": "accessoires"},
+        {"type": "Handschoenen", "categorie": "accessoires"}
     ]
 }

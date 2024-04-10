@@ -5,16 +5,16 @@
     {% include 'partials/header'%}</h1>
     <main>
       <h2>Kies je Kleding</h2>
-      <ul>
-        {% for kledingstuk in clothes.kledingDetails %}
-          <li tabindex="0">
-            <h3>{{ kledingstuk.type }}</h3>
-            <p>Beschrijving: {{ kledingstuk.beschrijving }}</p>
-            <p>Kleur: {{ kledingstuk.kleur }}</p>
-            <p>Categorie: {{ kledingstuk.categorie }}</p>
-          </li>
-        {% endfor %}
-      </ul>
+      <form action="/resultaat">
+        <fieldset aria-label="Selecteer een kledingstuk om te matchen">
+          <legend>Selecteer {{ clothesToMatchWithType }} om te matchen</legend>
+          {% for kledingtype in kledingTypes %}
+            <label><input type="radio" name="kledingstuk" value={{ kledingtype.type }} tabindex={{ forloop.index }}>{{ kledingtype.type }}</label>
+          {% endfor %}
+        </fieldset>
+    
+        <input type="submit" value="Submit" aria-label="Druk op deze knop om verder te gaan" tabindex="17">
+      </form>
     </main>
   </body>
-</html>
+</html> 

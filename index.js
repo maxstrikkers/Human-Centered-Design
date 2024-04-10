@@ -19,19 +19,17 @@ app.use(express.static(path.join(__dirname, 'static')));
 
 app.get('/', async function (req, res) {
     const clothesData = await getClothesData('kleding');
-    res.render('index', { headerText: 'Kleding Matcher', kledingTypes: clothesData.kledingstukken});
+    const numberOfItems = clothesData.kledingstukken.length;
+    res.render('index', { headerText: 'Kleding Matcher', kledingTypes: clothesData.kledingstukken, numberOfItems: numberOfItems});
 });
 
 app.get('/:kledingType', async function (req, res) {
-    console.log(req.query)
-    const clothesToMatchWith = await getClothesData('kledinDetails')
-    console.log(clothesToMatchWith)
-    res.render('kleding', { clothes: 'test' });
+    const clothesData = await getClothesData('kledingDetails')
+    const clothesToMatchWith = clothesData.kledingDetails.filter(clothes => clothes.categorie === req.query.kledingstuk);
+    const matchingClothes = clothesData.kledingDetails.filter(clothes => clothes.categorie === req.query.voorgesteldKledingstuk);
+
+    res.render('kleding', {clothesToMatchWith: clothesToMatchWith, matchingClothes: matchingClothes, clothesToMatchWithType: req.query.kledingstuk, matchingClothesType: req.query.voorgesteldKledingstuk });
   });
 
-// app.get('/kleding', async function (req, res) {
-//     const clothesData = await getClothesData('kledingDetails');
-//     res.render('kleding', { clothes: clothesData });
-// });
 
 app.listen(5500);

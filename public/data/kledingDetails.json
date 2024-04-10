@@ -1,4 +1,5 @@
- { "kledingDetails": [
+{
+  "kledingDetails": [
     {
       "type": "Jas",
       "beschrijving": "Lichtgewicht windjack met capuchon, waterafstotend materiaal, ideaal voor overgangsweer.",
@@ -58,6 +59,84 @@
       "beschrijving": "Minirok met A-lijn silhouet, denim materiaal, voorzien van knoopsluiting aan de voorkant.",
       "kleur": "Donkerblauw",
       "categorie": "Rokken"
+    },
+    {
+      "type": "Trui",
+      "beschrijving": "Gebreide wollen trui met ronde hals, ideaal voor koude dagen, verkrijgbaar in meerdere kleuren.",
+      "kleur": "Olijfgroen",
+      "categorie": "Truien"
+    },
+    {
+      "type": "Trui",
+      "beschrijving": "Fijngebreide trui met V-hals, licht en comfortabel, perfect voor laagjes in de herfst.",
+      "kleur": "Marineblauw",
+      "categorie": "Truien"
+    },
+    {
+      "type": "Trui",
+      "beschrijving": "Oversized hoodie met zak aan de voorkant, zachte fleece binnenzijde, ideaal voor casual dagen.",
+      "kleur": "Heidegrijs",
+      "categorie": "Truien"
+    },
+    {
+      "type": "Blouse",
+      "beschrijving": "Zijden blouse met lange mouwen en knoopsluiting, elegante uitstraling voor formele gelegenheden.",
+      "kleur": "Ivoor",
+      "categorie": "Blouses"
+    },
+    {
+      "type": "Blouse",
+      "beschrijving": "Katoenen blouse met Peter Pan-kraag en pofmouwen, schattig en stijlvol voor elke dag.",
+      "kleur": "Pastelroze",
+      "categorie": "Blouses"
+    },
+    {
+      "type": "Vest",
+      "beschrijving": "Lang gebreid vest zonder sluiting, ideaal om over shirts of blouses te dragen voor extra warmte.",
+      "kleur": "Kameel",
+      "categorie": "Vesten"
+    },
+    {
+      "type": "Jeans",
+      "beschrijving": "Skinny jeans met hoge taille, stretch materiaal voor comfort, basisstuk in elke garderobe.",
+      "kleur": "Zwart",
+      "categorie": "Jeans"
+    },
+    {
+      "type": "Shorts",
+      "beschrijving": "Denim shorts met omgeslagen zoom, licht verweerd voor een casual look, ideaal voor de zomer.",
+      "kleur": "Lichtblauw",
+      "categorie": "Shorts"
+    },
+    {
+      "type": "Leggings",
+      "beschrijving": "Sportleggings met hoge taille en compressie, ondersteunt en flatteert, ideaal voor workouts.",
+      "kleur": "Zwart",
+      "categorie": "Leggings"
+    },
+    {
+      "type": "Joggingsbroeken",
+      "beschrijving": "Zachte velours joggingsbroek, comfortabel en stijlvol, met aantrekkoord in de taille.",
+      "kleur": "Bordeauxrood",
+      "categorie": "Joggingsbroeken"
+    },
+    {
+      "type": "Sjaal",
+      "beschrijving": "Lange wollen sjaal, zacht en warm, met klassiek geruit patroon, veelzijdig en stijlvol.",
+      "kleur": "Grijs en Zwart",
+      "categorie": "Sjaals"
+    },
+    {
+      "type": "Hoed",
+      "beschrijving": "Wollen fedora hoed, klassiek ontwerp met brede rand, perfecte afwerking voor elke outfit.",
+      "kleur": "Taupe",
+      "categorie": "Hoeden"
+    },
+    {
+      "type": "Handschoenen",
+      "beschrijving": "Lederen handschoenen met kasjmier voering, elegant en warm, ideaal voor de winter.",
+      "kleur": "Donkerbruin",
+      "categorie": "Handschoenen"
     }
   ]
 }
