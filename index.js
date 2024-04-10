@@ -18,20 +18,20 @@ app.set('view engine', 'liquid'); // set liquid as the view engine
 app.use(express.static(path.join(__dirname, 'static')));
 
 app.get('/', async function (req, res) {
-    res.render('index', { headerText: 'Kleding Matcher'});
-    console.log(req);
+    const clothesData = await getClothesData('kleding');
+    res.render('index', { headerText: 'Kleding Matcher', kledingTypes: clothesData.kledingstukken});
 });
 
-app.get('/:kledingType', (req, res) => {
-    const kledingType = req.params.kledingType;
-    console.log(kledingType);
-    // Voer hier logica uit om de informatie over het gevraagde kledingType op te halen
-    res.send(`Informatie over kledingtype: ${kledingType}`);
+app.get('/:kledingType', async function (req, res) {
+    console.log(req.query)
+    const clothesToMatchWith = await getClothesData('kledinDetails')
+    console.log(clothesToMatchWith)
+    res.render('kleding', { clothes: 'test' });
   });
 
-app.get('/kleding', async function (req, res) {
-    const clothesData = await getClothesData('kledingDetails');
-    res.render('kleding', { clothes: clothesData });
-});
+// app.get('/kleding', async function (req, res) {
+//     const clothesData = await getClothesData('kledingDetails');
+//     res.render('kleding', { clothes: clothesData });
+// });
 
 app.listen(5500);

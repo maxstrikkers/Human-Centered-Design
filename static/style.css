@@ -2,7 +2,6 @@ body{
     background-color: green;
 }
 
-a:focus {
-    outline: 2px solid blue;
-    background-color: yellow;
-  }
+*:focus{
+    outline: 2px solid #000;
+}
