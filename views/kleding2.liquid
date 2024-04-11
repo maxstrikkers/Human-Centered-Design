@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {% include 'partials/head'%}
+  <body>
+    {% include 'partials/header'%}</h1>
+    <main>
+      <h2>Kies je Kleding</h2>
+      <form action="/resultaat">
+        <fieldset aria-label="Selecteer een voorgesteld kledingstuk">
+          <legend>Selecteer {{ clothesToMatchWithType }} om te matchen</legend>
+          {% for kleding in clothesToMatchWith %}
+            <label>
+              <input type="radio" name="kledingstuk" value={{ kleding.beschrijving }} tabindex={{ forloop.index }} aria-label="{{ kleding.beschrijving }} in de kleur {{ kleding.kleur }}">
+              {{ kleding.beschrijving }}
+            </label>
+          {% endfor %}
+        </fieldset>
+    
+        <input type="submit" value="Submit" aria-label="Druk op deze knop om verder te gaan" tabindex="17">
+      </form>
+    </main>
+  </body>
+</html> 

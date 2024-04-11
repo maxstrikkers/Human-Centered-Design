@@ -5,11 +5,14 @@
     {% include 'partials/header'%}</h1>
     <main>
       <h2>Kies je Kleding</h2>
-      <form action="/resultaat">
+      <form action="/kledingOmTeMatchen2">
         <fieldset aria-label="Selecteer een kledingstuk om te matchen">
           <legend>Selecteer {{ clothesToMatchWithType }} om te matchen</legend>
-          {% for kledingtype in kledingTypes %}
-            <label><input type="radio" name="kledingstuk" value={{ kledingtype.type }} tabindex={{ forloop.index }}>{{ kledingtype.type }}</label>
+          {% for kleding in clothesToMatchWith %}
+            <label>
+              <input type="radio" name="kledingstuk" value="{{ kleding.pastBij }}" tabindex="{{ forloop.index }}" aria-label="{{ kleding.beschrijving }} in de kleur {{ kleding.kleur }}">
+              {{ kleding.beschrijving }}
+            </label>
           {% endfor %}
         </fieldset>
     

@@ -7,10 +7,9 @@
         {"type": "Truien", "categorie": "bovenkleding"},
         {"type": "Blouses", "categorie": "bovenkleding"},
         {"type": "Vesten", "categorie": "bovenkleding"},
-        {"type": "Jeans", "categorie": "onderkleding"},
         {"type": "Shorts", "categorie": "onderkleding"},
         {"type": "Leggings", "categorie": "onderkleding"},
-        {"type": "Joggingbroeken", "categorie": "onderkleding"},
+        {"type": "Joggingsbroeken", "categorie": "onderkleding"},
         {"type": "Sjaals", "categorie": "accessoires"},
         {"type": "Hoeden", "categorie": "accessoires"},
         {"type": "Handschoenen", "categorie": "accessoires"}

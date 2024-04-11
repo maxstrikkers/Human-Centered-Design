@@ -1,142 +1,244 @@
 {
   "kledingDetails": [
     {
+      "id": "js1",
       "type": "Jas",
-      "beschrijving": "Lichtgewicht windjack met capuchon, waterafstotend materiaal, ideaal voor overgangsweer.",
+      "beschrijving": "Windjack, lichtgewicht, capuchon, ritssluiting, waterafstotend, materiaal: synthetisch, lengte: heup, mouwlengte: volledig, fit: regulier.",
       "kleur": "Navy",
-      "categorie": "Jassen"
+      "categorie": "Jassen",
+      "pastBij": ["brk1", "shrt1", "lggn1"]
     },
     {
+      "id": "js2",
       "type": "Jas",
-      "beschrijving": "Dikke parkajas met gevoerde binnenzijde en afneembare bontkraag, perfect voor koude winterdagen.",
+      "beschrijving": "Parkajas, gevoerde binnenzijde, afneembare bontkraag, materiaal: polyester met binnenvoering, lengte: onder de heup, mouwlengte: volledig, fit: ruim.",
       "kleur": "Zwart",
-      "categorie": "Jassen"
+      "categorie": "Jassen",
+      "pastBij": ["brk2", "trui1", "lggn1"]
     },
     {
+      "id": "js3",
       "type": "Jas",
-      "beschrijving": "Klassieke trenchcoat, dubbelgeknoopt met riem, waterbestendig, een tijdloze keuze voor regenachtige dagen.",
+      "beschrijving": "Trenchcoat, dubbelgeknoopt, riem, waterbestendig, materiaal: katoenmix, lengte: middenkuit, mouwlengte: volledig, fit: aansluitend.",
       "kleur": "Beige",
-      "categorie": "Jassen"
+      "categorie": "Jassen",
+      "pastBij": ["bls1", "rok1"]
     },
     {
+      "id": "brk1",
       "type": "Broek",
-      "beschrijving": "Rechte jeans van duurzaam denim, klassieke pasvorm met vijf zakken, veelzijdig voor dagelijks gebruik.",
+      "beschrijving": "Jeans, rechte pijpen, duurzaam denim, vijf zakken, knoopsluiting, materiaal: denim, lengte: volledig, fit: klassiek.",
       "kleur": "Indigo",
-      "categorie": "Broeken"
+      "categorie": "Broeken",
+      "pastBij": ["shrt1", "trui2"]
     },
     {
+      "id": "brk2",
       "type": "Broek",
-      "beschrijving": "Chino broek met slanke pasvorm, gemaakt van zacht katoen, ideaal voor casual kantooroutfits.",
+      "beschrijving": "Chino, slanke pasvorm, zacht katoen, ritssluiting met knoop, zijzakken, achterzakken, materiaal: katoen, lengte: volledig, fit: slank.",
       "kleur": "Khaki",
-      "categorie": "Broeken"
+      "categorie": "Broeken",
+      "pastBij": ["shrt2", "js1"]
     },
     {
+      "id": "brk3",
       "type": "Broek",
-      "beschrijving": "Joggingbroek met trekkoord, comfortabele katoenmix, perfect voor relaxte weekenden.",
+      "beschrijving": "Joggingbroek, trekkoord, katoenmix, zijzakken, materiaal: katoenmix, lengte: volledig, fit: relaxed.",
       "kleur": "Grijs",
-      "categorie": "Broeken"
+      "categorie": "Broeken",
+      "pastBij": ["trui3", "shrt3"]
     },
     {
+      "id": "shrt1",
       "type": "Shirt",
-      "beschrijving": "Katoenen polo met korte mouwen, kraag met twee knopen, verkrijgbaar in diverse kleuren.",
+      "beschrijving": "Polo, korte mouwen, kraag met twee knopen, materiaal: katoen, mouwlengte: kort, fit: regulier.",
       "kleur": "Wit",
-      "categorie": "Shirts"
+      "categorie": "Shirts",
+      "pastBij": ["brk1", "js1"]
     },
     {
+      "id": "shrt2",
       "type": "Shirt",
-      "beschrijving": "Flanellen overhemd met lange mouwen, geruit patroon, warm en ideaal voor herfstweer.",
+      "beschrijving": "Flanellen overhemd, lange mouwen, geruit patroon, knoopsluiting, materiaal: flanel, mouwlengte: lang, fit: regulier.",
       "kleur": "Rood en Zwart",
-      "categorie": "Shirts"
+      "categorie": "Shirts",
+      "pastBij": ["jeans1", "js2"]
     },
     {
+      "id": "shrt3",
       "type": "Shirt",
-      "beschrijving": "Linnen shirt met lange mouwen, ademend materiaal, losse pasvorm, perfect voor hete zomerdagen.",
+      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
       "kleur": "Lichtblauw",
-      "categorie": "Shirts"
+      "categorie": "Shirts",
+      "pastBij": ["brk2", "js3"]
     },
     {
+      "id": "rok1",
       "type": "Rok",
-      "beschrijving": "Minirok met A-lijn silhouet, denim materiaal, voorzien van knoopsluiting aan de voorkant.",
+      "beschrijving": "Rok, A-lijn silhouet, denim, knoopsluiting voorkant, materiaal: denim, lengte: mini, fit: aansluitend.",
       "kleur": "Donkerblauw",
-      "categorie": "Rokken"
+      "categorie": "Rokken",
+      "pastBij": ["bls2", "js3"]
     },
     {
+      "id": "trui1",
       "type": "Trui",
-      "beschrijving": "Gebreide wollen trui met ronde hals, ideaal voor koude dagen, verkrijgbaar in meerdere kleuren.",
+      "beschrijving": "Wollen trui, ronde hals, gebreid, materiaal: wol, mouwlengte: volledig, fit: regulier.",
       "kleur": "Olijfgroen",
-      "categorie": "Truien"
+      "categorie": "Truien",
+      "pastBij": ["brk1", "jeans1"]
     },
     {
+      "id": "trui2",
       "type": "Trui",
-      "beschrijving": "Fijngebreide trui met V-hals, licht en comfortabel, perfect voor laagjes in de herfst.",
+      "beschrijving": "V-hals trui, fijngebreid, licht, materiaal: katoenmix, mouwlengte: volledig, fit: aansluitend.",
       "kleur": "Marineblauw",
-      "categorie": "Truien"
+      "categorie": "Truien",
+      "pastBij": ["brk2", "js2"]
     },
     {
+      "id": "trui3",
       "type": "Trui",
-      "beschrijving": "Oversized hoodie met zak aan de voorkant, zachte fleece binnenzijde, ideaal voor casual dagen.",
+      "beschrijving": "Hoodie, oversized, zak voorkant, fleece binnenzijde, materiaal: katoenmix, mouwlengte: volledig, fit: oversized.",
       "kleur": "Heidegrijs",
-      "categorie": "Truien"
+      "categorie": "Truien",
+      "pastBij": ["brk3", "lggn1"]
     },
     {
+      "id": "bls1",
       "type": "Blouse",
-      "beschrijving": "Zijden blouse met lange mouwen en knoopsluiting, elegante uitstraling voor formele gelegenheden.",
+      "beschrijving": "Zijden blouse, lange mouwen, knoopsluiting, materiaal: zijde, mouwlengte: lang, fit: regulier.",
       "kleur": "Ivoor",
-      "categorie": "Blouses"
+      "categorie": "Blouses",
+      "pastBij": ["js3", "rok1"]
     },
     {
+      "id": "bls2",
       "type": "Blouse",
-      "beschrijving": "Katoenen blouse met Peter Pan-kraag en pofmouwen, schattig en stijlvol voor elke dag.",
+      "beschrijving": "Katoenen blouse, Peter Pan-kraag, pofmouwen, knoopsluiting, materiaal: katoen, mouwlengte: lang, fit: aansluitend.",
       "kleur": "Pastelroze",
-      "categorie": "Blouses"
+      "categorie": "Blouses",
+      "pastBij": ["js1", "rok1"]
     },
     {
+      "id": "vst1",
       "type": "Vest",
-      "beschrijving": "Lang gebreid vest zonder sluiting, ideaal om over shirts of blouses te dragen voor extra warmte.",
+      "beschrijving": "Gebreid vest, lang, open voorkant, materiaal: wolmix, lengte: knie, fit: los.",
       "kleur": "Kameel",
-      "categorie": "Vesten"
+      "categorie": "Vesten",
+      "pastBij": ["bls1", "jeans1"]
     },
     {
-      "type": "Jeans",
-      "beschrijving": "Skinny jeans met hoge taille, stretch materiaal voor comfort, basisstuk in elke garderobe.",
+      "id": "brk4",
+      "type": "Broek",
+      "beschrijving": "Skinny jeans, hoge taille, stretch materiaal, ritssluiting met knoop, materiaal: denim, lengte: volledig, fit: skinny.",
       "kleur": "Zwart",
-      "categorie": "Jeans"
+      "categorie": "Broeken",
+      "pastBij": ["shrt2", "trui1"]
     },
     {
+      "id": "shrt4",
       "type": "Shorts",
-      "beschrijving": "Denim shorts met omgeslagen zoom, licht verweerd voor een casual look, ideaal voor de zomer.",
+      "beschrijving": "Denim shorts, omgeslagen zoom, licht verweerd, ritssluiting met knoop, materiaal: denim, lengte: kort, fit: regulier.",
       "kleur": "Lichtblauw",
-      "categorie": "Shorts"
+      "categorie": "Shorts",
+      "pastBij": ["shrt1", "trui3"]
     },
     {
+      "id": "lggn1",
       "type": "Leggings",
-      "beschrijving": "Sportleggings met hoge taille en compressie, ondersteunt en flatteert, ideaal voor workouts.",
+      "beschrijving": "Sportleggings, hoge taille, compressie, elastische tailleband, materiaal: synthetisch, lengte: volledig, fit: aansluitend.",
       "kleur": "Zwart",
-      "categorie": "Leggings"
+      "categorie": "Leggings",
+      "pastBij": ["js1", "trui3"]
     },
     {
+      "id": "shrt5",
+      "type": "Shirt",
+      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
+      "kleur": "Lichtblauw",
+      "categorie": "Shirts",
+      "pastBij": ["brk2", "js3"]
+    },
+    {
+      "id": "shrt6",
+      "type": "Shirt",
+      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
+      "kleur": "Lichtblauw",
+      "categorie": "Shirts",
+      "pastBij": ["brk2", "js3"]
+    },
+    {
+      "id": "shrt7",
+      "type": "Shirt",
+      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
+      "kleur": "Lichtblauw",
+      "categorie": "Shirts",
+      "pastBij": ["brk2", "js3"]
+    },
+    {
+      "id": "shrt8",
+      "type": "Shirt",
+      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
+      "kleur": "Lichtblauw",
+      "categorie": "Shirts",
+      "pastBij": ["brk2", "js3"]
+    },
+    {
+      "id": "shrt9",
+      "type": "Shirt",
+      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
+      "kleur": "Lichtblauw",
+      "categorie": "Shirts",
+      "pastBij": ["brk2", "js3"]
+    },
+    {
+      "id": "tp1",
+      "type": "Top",
+      "beschrijving": "Tanktop, mouwloos, strakke pasvorm, ronde hals, materiaal: katoenmix, mouwlengte: mouwloos, fit: strak.",
+      "kleur": "Wit",
+      "categorie": "Tops",
+      "pastBij": ["jeans1", "shrt4"]
+    },
+    {
+      "id": "tp2",
+      "type": "Top",
+      "beschrijving": "Crop top, korte mouwen, losse pasvorm, elastische zoom, materiaal: viscose, mouwlengte: kort, fit: los.",
+      "kleur": "Zwart",
+      "categorie": "Tops",
+      "pastBij": ["brk3", "lggn1"]
+    },
+    {
+      "id": "tp3",
+      "type": "Top",
+      "beschrijving": "Gebreide top, lange mouwen, nauwsluitende pasvorm, col, materiaal: wolmix, mouwlengte: lang, fit: nauwsluitend.",
+      "kleur": "Marineblauw",
+      "categorie": "Tops",
+      "pastBij": ["brk1", "vst1"]
+    },
+    {
+      "id": "jgb2",
+      "type": "Joggingsbroek",
+      "beschrijving": "Joggingbroek met zijstreep, elastische tailleband met trekkoord, zijzakken, materiaal: katoenmix, lengte: volledig, fit: relaxed.",
+      "kleur": "Marineblauw",
+      "categorie": "Joggingsbroeken",
+      "pastBij": ["tp2", "trui3"]
+    },
+    {
+      "id": "jgb3",
       "type": "Joggingsbroeken",
-      "beschrijving": "Zachte velours joggingsbroek, comfortabel en stijlvol, met aantrekkoord in de taille.",
-      "kleur": "Bordeauxrood",
-      "categorie": "Joggingsbroeken"
+      "beschrijving": "Capribroek, 3/4 lengte, elastische tailleband, lichtgewicht materiaal, materiaal: polyester, lengte: kuit, fit: relaxed.",
+      "kleur": "Lichtgrijs",
+      "categorie": "Joggingsbroeken",
+      "pastBij": ["tp1", "sjl2"]
     },
     {
-      "type": "Sjaal",
-      "beschrijving": "Lange wollen sjaal, zacht en warm, met klassiek geruit patroon, veelzijdig en stijlvol.",
-      "kleur": "Grijs en Zwart",
-      "categorie": "Sjaals"
-    },
-    {
-      "type": "Hoed",
-      "beschrijving": "Wollen fedora hoed, klassiek ontwerp met brede rand, perfecte afwerking voor elke outfit.",
-      "kleur": "Taupe",
-      "categorie": "Hoeden"
-    },
-    {
-      "type": "Handschoenen",
-      "beschrijving": "Lederen handschoenen met kasjmier voering, elegant en warm, ideaal voor de winter.",
-      "kleur": "Donkerbruin",
-      "categorie": "Handschoenen"
-    }
+      "id": "jgb4",
+      "type": "Joggingsbroek",
+      "beschrijving": "Slim-fit joggingbroek, elastische manchetten, steekzakken met rits, materiaal: katoen-elastaan mix, lengte: volledig, fit: slim-fit.",
+      "kleur": "Zwart",
+      "categorie": "Joggingsbroeken",
+      "pastBij": ["tp3", "js1"]
+    }    
   ]
 }
