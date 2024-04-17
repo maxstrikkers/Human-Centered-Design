@@ -7,7 +7,7 @@
       <h2>Kies je Kleding</h2>
       <form action="/kledingOmTeMatchen2">
         <fieldset aria-label="Selecteer een kledingstuk om te matchen">
-          <legend>Selecteer {{ clothesToMatchWithType }} om te matchen</legend>
+          <legend>Selecteer {{ clothesToMatchWithType }}</legend>
           {% for kleding in clothesToMatchWith %}
             <label>
               <input type="radio" name="kledingstuk" value="{{ kleding.pastBij }}" tabindex="{{ forloop.index }}" aria-label="{{ kleding.beschrijving }} in de kleur {{ kleding.kleur }}">

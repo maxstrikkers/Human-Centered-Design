@@ -32,19 +32,17 @@ app.get('/kledingOmTeMatchen1', async function (req, res) {
     const clothesData = await getClothesData('kledingDetails');
     res.cookie('kledingstuk', req.query.kledingstuk);
     res.cookie('voorgesteldKledingstuk', req.query.voorgesteldKledingstuk);
-    const clothesToMatchWith = clothesData.kledingDetails.filter(clothes => clothes.categorie === req.query.kledingstuk);
-    const matchingClothes = clothesData.kledingDetails.filter(clothes => clothes.categorie === req.query.voorgesteldKledingstuk);
-    res.render('kleding1', {clothesToMatchWith: clothesToMatchWith, matchingClothes: matchingClothes, clothesToMatchWithType: req.query.kledingstuk, matchingClothesType: req.query.voorgesteldKledingstuk });
+    const kledingstuk = req.query.kledingstuk.split(' ')[0];
+    const clothesToMatchWith = clothesData.kledingDetails.filter(clothes => clothes.categorie === kledingstuk);
+    res.render('kleding1', {clothesToMatchWith: clothesToMatchWith, clothesToMatchWithType: req.query.kledingstuk });
   });
 
 
 app.get('/kledingOmTeMatchen2', async function (req, res) {
     const clothesData = await getClothesData('kledingDetails');
-    const pastBijText = req.query.kledingstuk;
-    const pastBijList = pastBijText.split(/(?<=\d)(?=\D)/);
-    const typeToMatch = clothesData.kledingDetails.filter(clothes => clothes.categorie === req.cookies.voorgesteldKledingstuk);
-    const recommendedClothes = typeToMatch.filter(clothes => pastBijList.some(item => clothes.pastBij.includes(item)));
-    console.log(recommendedClothes);
+    // const typeToMatch = clothesData.kledingDetails.filter(clothes => clothes.categorie === req.cookies.voorgesteldKledingstuk);
+    // console.log(req.cookies.voorgesteldKledingstuk)
+    // const recommendedClothes = typeToMatch.filter(clothes => pastBijList.some(item => clothes.pastBij.includes(item)));
     res.render('kleding2', {clothesToMatchWith: 'test' });
 });
 
