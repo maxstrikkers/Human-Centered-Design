@@ -8,15 +8,13 @@
       <form action="/resultaat">
         <fieldset aria-label="De kledingstukken die goed passen bij de wat jij hebt geselecteerd">
           <legend>Resultaat</legend>
-          {% for kleding in clothesToMatchWith %}
+          {% for kleding in matchingItems %}
             <label>
               <input type="radio" name="kledingstuk" value={{ kleding.beschrijving }} tabindex={{ forloop.index }} aria-label="{{ kleding.beschrijving }} in de kleur {{ kleding.kleur }}">
               {{ kleding.beschrijving }}
             </label>
           {% endfor %}
         </fieldset>
-    
-        <input type="submit" value="Submit" aria-label="Druk op deze knop om verder te gaan" tabindex="17">
       </form>
     </main>
   </body>

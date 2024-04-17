@@ -40,10 +40,12 @@ app.get('/kledingOmTeMatchen1', async function (req, res) {
 
 app.get('/kledingOmTeMatchen2', async function (req, res) {
     const clothesData = await getClothesData('kledingDetails');
-    // const typeToMatch = clothesData.kledingDetails.filter(clothes => clothes.categorie === req.cookies.voorgesteldKledingstuk);
-    // console.log(req.cookies.voorgesteldKledingstuk)
-    // const recommendedClothes = typeToMatch.filter(clothes => pastBijList.some(item => clothes.pastBij.includes(item)));
-    res.render('kleding2', {clothesToMatchWith: 'test' });
+    const kledingstuk = req.cookies.voorgesteldKledingstuk.split(' ')[0];
+    const typeToMatch = clothesData.kledingDetails.filter(clothes => clothes.categorie === kledingstuk);
+    const pastBijString = req.query.kledingstuk
+    const pastBijList = pastBijString.split(/(?<=\d)(?=[a-zA-Z])/);
+    const matchingItems = typeToMatch.filter(item => pastBijList.includes(item.id));
+    res.render('kleding2', {matchingItems: matchingItems });
 });
 
 app.listen(5500);
