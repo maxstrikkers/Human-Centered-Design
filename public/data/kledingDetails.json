@@ -62,7 +62,7 @@
       "beschrijving": "Flanellen overhemd, lange mouwen, geruit patroon, knoopsluiting, materiaal: flanel, mouwlengte: lang, fit: regulier.",
       "kleur": "Rood en Zwart",
       "categorie": "Shirts",
-      "pastBij": ["jeans1", "js2"]
+      "pastBij": ["brk2", "js2"]
     },
     {
       "id": "shrt3",
@@ -78,7 +78,7 @@
       "beschrijving": "Rok, A-lijn silhouet, denim, knoopsluiting voorkant, materiaal: denim, lengte: mini, fit: aansluitend.",
       "kleur": "Donkerblauw",
       "categorie": "Rokken",
-      "pastBij": ["bls2", "js3"]
+      "pastBij": ["bls1", "js3"]
     },
     {
       "id": "trui1",
@@ -86,7 +86,7 @@
       "beschrijving": "Wollen trui, ronde hals, gebreid, materiaal: wol, mouwlengte: volledig, fit: regulier.",
       "kleur": "Olijfgroen",
       "categorie": "Truien",
-      "pastBij": ["brk1", "jeans1"]
+      "pastBij": ["brk2", "js2"]
     },
     {
       "id": "trui2",
@@ -94,7 +94,7 @@
       "beschrijving": "V-hals trui, fijngebreid, licht, materiaal: katoenmix, mouwlengte: volledig, fit: aansluitend.",
       "kleur": "Marineblauw",
       "categorie": "Truien",
-      "pastBij": ["brk2", "js2"]
+      "pastBij": ["brk1", "js1"]
     },
     {
       "id": "trui3",
@@ -113,132 +113,12 @@
       "pastBij": ["js3", "rok1"]
     },
     {
-      "id": "bls2",
-      "type": "Blouse",
-      "beschrijving": "Katoenen blouse, Peter Pan-kraag, pofmouwen, knoopsluiting, materiaal: katoen, mouwlengte: lang, fit: aansluitend.",
-      "kleur": "Pastelroze",
-      "categorie": "Blouses",
-      "pastBij": ["js1", "rok1"]
-    },
-    {
-      "id": "vst1",
-      "type": "Vest",
-      "beschrijving": "Gebreid vest, lang, open voorkant, materiaal: wolmix, lengte: knie, fit: los.",
-      "kleur": "Kameel",
-      "categorie": "Vesten",
-      "pastBij": ["bls1", "jeans1"]
-    },
-    {
-      "id": "brk4",
-      "type": "Broek",
-      "beschrijving": "Skinny jeans, hoge taille, stretch materiaal, ritssluiting met knoop, materiaal: denim, lengte: volledig, fit: skinny.",
-      "kleur": "Zwart",
-      "categorie": "Broeken",
-      "pastBij": ["shrt2", "trui1"]
-    },
-    {
-      "id": "shrt4",
-      "type": "Shorts",
-      "beschrijving": "Denim shorts, omgeslagen zoom, licht verweerd, ritssluiting met knoop, materiaal: denim, lengte: kort, fit: regulier.",
-      "kleur": "Lichtblauw",
-      "categorie": "Shorts",
-      "pastBij": ["shrt1", "trui3"]
-    },
-    {
       "id": "lggn1",
       "type": "Leggings",
       "beschrijving": "Sportleggings, hoge taille, compressie, elastische tailleband, materiaal: synthetisch, lengte: volledig, fit: aansluitend.",
       "kleur": "Zwart",
       "categorie": "Leggings",
       "pastBij": ["js1", "trui3"]
-    },
-    {
-      "id": "shrt5",
-      "type": "Shirt",
-      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
-      "kleur": "Lichtblauw",
-      "categorie": "Shirts",
-      "pastBij": ["brk2", "js3"]
-    },
-    {
-      "id": "shrt6",
-      "type": "Shirt",
-      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
-      "kleur": "Lichtblauw",
-      "categorie": "Shirts",
-      "pastBij": ["brk2", "js3"]
-    },
-    {
-      "id": "shrt7",
-      "type": "Shirt",
-      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
-      "kleur": "Lichtblauw",
-      "categorie": "Shirts",
-      "pastBij": ["brk2", "js3"]
-    },
-    {
-      "id": "shrt8",
-      "type": "Shirt",
-      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
-      "kleur": "Lichtblauw",
-      "categorie": "Shirts",
-      "pastBij": ["brk2", "js3"]
-    },
-    {
-      "id": "shrt9",
-      "type": "Shirt",
-      "beschrijving": "Linnen shirt, lange mouwen, ademend, losse pasvorm, knoopsluiting, materiaal: linnen, mouwlengte: lang, fit: los.",
-      "kleur": "Lichtblauw",
-      "categorie": "Shirts",
-      "pastBij": ["brk2", "js3"]
-    },
-    {
-      "id": "tp1",
-      "type": "Top",
-      "beschrijving": "Tanktop, mouwloos, strakke pasvorm, ronde hals, materiaal: katoenmix, mouwlengte: mouwloos, fit: strak.",
-      "kleur": "Wit",
-      "categorie": "Tops",
-      "pastBij": ["jeans1", "shrt4"]
-    },
-    {
-      "id": "tp2",
-      "type": "Top",
-      "beschrijving": "Crop top, korte mouwen, losse pasvorm, elastische zoom, materiaal: viscose, mouwlengte: kort, fit: los.",
-      "kleur": "Zwart",
-      "categorie": "Tops",
-      "pastBij": ["brk3", "lggn1"]
-    },
-    {
-      "id": "tp3",
-      "type": "Top",
-      "beschrijving": "Gebreide top, lange mouwen, nauwsluitende pasvorm, col, materiaal: wolmix, mouwlengte: lang, fit: nauwsluitend.",
-      "kleur": "Marineblauw",
-      "categorie": "Tops",
-      "pastBij": ["brk1", "vst1"]
-    },
-    {
-      "id": "jgb2",
-      "type": "Joggingsbroek",
-      "beschrijving": "Joggingbroek met zijstreep, elastische tailleband met trekkoord, zijzakken, materiaal: katoenmix, lengte: volledig, fit: relaxed.",
-      "kleur": "Marineblauw",
-      "categorie": "Joggingsbroeken",
-      "pastBij": ["tp2", "trui3"]
-    },
-    {
-      "id": "jgb3",
-      "type": "Joggingsbroeken",
-      "beschrijving": "Capribroek, 3/4 lengte, elastische tailleband, lichtgewicht materiaal, materiaal: polyester, lengte: kuit, fit: relaxed.",
-      "kleur": "Lichtgrijs",
-      "categorie": "Joggingsbroeken",
-      "pastBij": ["tp1", "sjl2"]
-    },
-    {
-      "id": "jgb4",
-      "type": "Joggingsbroek",
-      "beschrijving": "Slim-fit joggingbroek, elastische manchetten, steekzakken met rits, materiaal: katoen-elastaan mix, lengte: volledig, fit: slim-fit.",
-      "kleur": "Zwart",
-      "categorie": "Joggingsbroeken",
-      "pastBij": ["tp3", "js1"]
-    }    
+    }
   ]
 }

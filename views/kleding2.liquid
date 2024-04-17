@@ -4,18 +4,12 @@
   <body>
     {% include 'partials/header'%}</h1>
     <main>
-      <h2>Kies je Kleding</h2>
-      <form action="/resultaat">
-        <fieldset aria-label="De kledingstukken die goed passen bij de wat jij hebt geselecteerd">
-          <legend>Resultaat</legend>
-          {% for kleding in matchingItems %}
-            <label>
-              <input type="radio" name="kledingstuk" value={{ kleding.beschrijving }} tabindex={{ forloop.index }} aria-label="{{ kleding.beschrijving }} in de kleur {{ kleding.kleur }}">
-              {{ kleding.beschrijving }}
-            </label>
-          {% endfor %}
-        </fieldset>
-      </form>
+      <h2>De kledingstukken die goed passen bij de {{ typeToMatch }} die jij hebt geselecteerd</h2>
+      <ul aria-label="De kledingstukken die goed passen bij {{ typeToMatch }}">
+        {% for kleding in matchingItems %}
+          <li>{{ kleding.beschrijving }} in de kleur {{ kleding.kleur }}</li>
+        {% endfor %}
+      </ul>
     </main>
   </body>
 </html> 
