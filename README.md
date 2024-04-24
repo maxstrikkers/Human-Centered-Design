@@ -41,9 +41,19 @@ Voor de ontwikkeling van deze applicatie gebruik ik de JavaScript-runtime 'Node.
 - Ik wilde er voor zorgen dat Petra niet meer in de verwarring zou raken als ze een kledingstuk moest selecteren. En dat ze ook begreep waar op de pagina ze was. Ik heb dit gedaan door alle technische termen weg te halen en het te benoemen op een manier dat ik het uit zou leggen aan iemand die niet heel veel verstand heeft van technische dingen, dit omdat ik liever heb dat het wat te simpel beschreven staat en dat het sneller begrepen word dan dat er heel veel ingewikkelde dingen in zitten.
 - Om de verwarring die ze had bij het selecteren van kledingstukken weg te nemen heb ik bij alle radio buttons van de eerste stap duidelijk vermeld dat het stap 1 was en bij de 2e stap duidelijk vermeld dat het stap 2 was.
 - Ook wilde ik iets doen aan het feit dat Petra door alle radio buttons heen moest gaan om naar het volgende onderdeel te komen, maar dat bleek lastiger dan ik dacht. Ik had het werkend op de computer, maar uit de test bleek dat het heel anders werkt op mobiel. Dit omdat als je met de screenreader naar links, rechts, boven of beneden beweegt hij dit ziet als een pijltje en niet als een tabje.
+- Tot slot er voor zorgen dat er een manier is om kleding te matchen met elkaar.
 
 
 ### Test resultaten Petra: 
+- Toen Petra ging testen bleek al meteen dat ik het probleem dat ze door elke radio button heen moest gaan niet op had gelost, hoewel het op mijn computer welk werkte kwam ik er achter dat het op de telefoon een heel stuk anders werkt. Dit heb ik hiervoor ook al beschreven. Petra hoorde zo veel verschillende categorieën dat ze bijna niet meer wist wat ze nou had geselecteerd. Dit is natuurlijk niet ideaal.
+- Ook snapte ze niet heel goed wat er dan moest gebeuren als je kledingstukken had geselecteerd. Ze dacht dat het een kwestie was van op het type kleding klikken en dat ze dan automatisch naar de volgende pagina zou gaan, terwijl er eerst nog op de submit knop gedrukt moest worden. Dit was lastig voor haar omdat ze dat niet gewend was.
+- Toen ze eenmaal met best wat hulp van mij het process had doorlopen en op de pagina uitkwam die haar liet zien wat de kledingstukken waren die goed paste bij wat ze had geselecteerd kwam ze eigelijk met de vraag "en nu?" Ik had hier nog niet heel erg bij nagedacht maar ze wilde ook nog de optie om iets nieuws te kunnen matchen en eventueel de eerder gematchte kleding op te slaan zodat ze haar hele outfit samen kon stellen.
+- Het was me duidelijk dat ik toch even terug moest gaan naar de tekentafel om mijn concept een heel stuk gebruiksvriendelijker te maken.
+
+### Resultaten:
+- Ik ben vooral tot hele waardevolle inzichten gekomen dankzij de test met Petra. En heb een plan gemaakt om mijn app zo simpel mogelijk te maken.
+- Ook heb ik de kleding matcher zelf werkend dus het matchen van kleding werkt.
+
 
 
 
