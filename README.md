@@ -56,7 +56,8 @@ Voor de ontwikkeling van deze applicatie gebruik ik de JavaScript-runtime 'Node.
 
 ## Week 4 Feedback verwerken + Laatste test
 ### Activieteiten:
-
+- Ik ben bezig geweest met het opnieuw bedenken van de manier waarop Petra door de app navigeert. Waar ze aan het begin het kledingtype moest selecteren, zoals een jas, broek of iets anders, gevolgd door het type kledingstuk dat ze daarbij wilde matchen voordat ze het specifieke kledingstuk kon selecteren, heb ik het nu een stuk simpeler gemaakt. Op de beginpagina heb ik alle radio buttons vervangen door links. Dus als zij iets ziet wat ze wil, hoeft ze er maar een keer op te klikken. Dit lost ook het probleem op dat zij had met het door elk item moeten tabben voordat ze verder kon gaan.
+- Ook heb ik de resultaten aangepast; het is bijvoorbeeld niet meer nodig om een kledingtype te selecteren dat je wilt matchen. Ze klikt nu op een specifiek kledingstuk, bijvoorbeeld een blauwe spijkerbroek, en dan zal het systeem automatisch alle kledingstukken laten zien die daarbij passen.
 
 
 
