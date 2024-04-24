@@ -54,6 +54,10 @@ Voor de ontwikkeling van deze applicatie gebruik ik de JavaScript-runtime 'Node.
 - Ik ben vooral tot hele waardevolle inzichten gekomen dankzij de test met Petra. En heb een plan gemaakt om mijn app zo simpel mogelijk te maken.
 - Ook heb ik de kleding matcher zelf werkend dus het matchen van kleding werkt.
 
+## Week 4 Feedback verwerken + Laatste test
+### Activieteiten:
+
+
 
 
 
