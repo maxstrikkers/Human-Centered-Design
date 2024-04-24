@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="nl">
+  {% include 'partials/head'%}
+  <body>
+    {% include 'partials/header'%}</h1>
+    <main>
+      <ul aria-label="Selecteer een kledingstuk om te matchen">
+        <li>Selecteer {{ clothesToMatchWithType }}</li>
+        {% for kleding in clothesToMatchWith %}
+          <li>
+            <a href="/{{ kleding.id }}" aria-label="{{ kleding.type }} in de kleur {{ kleding.kleur }}">
+              {{ kleding.beschrijving }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </main>
+  </body>
+</html> 

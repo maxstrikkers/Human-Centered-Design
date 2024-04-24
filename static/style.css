@@ -1,7 +1,43 @@
 body{
-    background-color: green;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 *:focus{
     outline: 2px solid #000;
+}
+
+header{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 0.5rem solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+li{
+    padding: 0.5rem;
+    list-style-type: none;
+    font-size: 3rem;
+    a{
+        color: black;
+        text-decoration: none;
+    }
 }

@@ -4,23 +4,12 @@
   <body>
     {% include 'partials/header'%}</h1>
     <main>
-      <form action="/kledingOmTeMatchen1">
-      <fieldset aria-label="Selecteer een kledingstuk om te matchen">
-        <legend tabindex="0">Selecteer een kledingstuk om te matchen</legend>
+      <ul aria-label="Selecteer een kledingstuk om te matchen">
+        <li>Selecteer een kledingstuk om te matchen</li>
         {% for kledingtype in kledingTypes %}
-        <label><input type="radio" name="kledingstuk" value="{{ kledingtype.type }}" aria-label="{{ kledingtype.type }} stap 1" tabindex={{ forloop.index }}>{{ kledingtype.type }}</label>      
+          <li><a href="/match/{{ kledingtype.type }}" aria-label="{{ kledingtype.type }}">{{ kledingtype.type }}</a></li>
         {% endfor %}
-      </fieldset>
-    
-      <fieldset aria-label="Voorgestelde kledingstukken om te matchen">
-        <legend tabindex="0">Voorgestelde kledingstukken om te matchen</legend>
-        {% for kledingtype in kledingTypes %}
-          <label><input type="radio" name="voorgesteldKledingstuk" value="{{ kledingtype.type }}" tabindex={{ forloop.index | plus:numberOfItems }}>{{ kledingtype.type }}</label>
-        {% endfor %}
-      </fieldset>
-    
-      <input type="submit" value="Submit" aria-label="Druk op deze knop om verder te gaan" tabindex="{{ numberOfItems | times: 2 | plus: 1 }}">
-    </form>
+      </ul>
     </main>
   </body>
 </html>

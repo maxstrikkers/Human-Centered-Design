@@ -24,28 +24,22 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', async function (req, res) {
     const clothesData = await getClothesData('kleding');
-    const numberOfItems = clothesData.kledingstukken.length;
-    res.render('index', { headerText: 'Kleding Matcher', kledingTypes: clothesData.kledingstukken, numberOfItems: numberOfItems});
+    res.render('index', { headerText: 'Kleding Matcher', kledingTypes: clothesData.kledingstukken});
 });
 
-app.get('/kledingOmTeMatchen1', async function (req, res) {
-    const clothesData = await getClothesData('kledingDetails');
-    res.cookie('kledingstuk', req.query.kledingstuk);
-    res.cookie('voorgesteldKledingstuk', req.query.voorgesteldKledingstuk);
-    const kledingstuk = req.query.kledingstuk.split(' ')[0];
-    const clothesToMatchWith = clothesData.kledingDetails.filter(clothes => clothes.categorie === kledingstuk);
-    res.render('kleding1', {clothesToMatchWith: clothesToMatchWith, clothesToMatchWithType: req.query.kledingstuk });
+app.get('/match/:kledingstuk', async function (req, res) {
+    let clothesData = await getClothesData('kledingDetails');
+    clothesData = clothesData.kledingDetails.filter(item => item.categorie === req.params.kledingstuk);
+    res.render('match', {headerText: 'Selecteer een kledingstuk',clothesToMatchWithType: req.params.kledingstuk, clothesToMatchWith: clothesData});
   });
 
 
-app.get('/kledingOmTeMatchen2', async function (req, res) {
+app.get('/:kledingId', async function (req, res) {
     const clothesData = await getClothesData('kledingDetails');
-    const kledingstuk = req.cookies.voorgesteldKledingstuk
-    const typeToMatch = clothesData.kledingDetails.filter(clothes => clothes.categorie === kledingstuk);
-    const pastBijString = req.query.kledingstuk
-    const pastBijList = pastBijString.split(/(?<=\d)(?=[a-zA-Z])/);
-    const matchingItems = typeToMatch.filter(item => pastBijList.includes(item.id));
-    res.render('kleding2', {matchingItems: matchingItems, typeToMatch: typeToMatch[0].type });
+    console.log(req.params.kledingId)
+    const clothesThatFit = clothesData.kledingDetails.filter(item => item.pastBij.includes(req.params.kledingId));
+    console.log(clothesThatFit);
+    res.render('resultaat', {headerText:'De kledingstukken die goed passen bij wat jij hebt geselecteerd' ,matchingItems: clothesThatFit});
 });
 
 app.listen(5500);

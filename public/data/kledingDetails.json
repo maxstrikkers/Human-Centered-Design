@@ -119,6 +119,38 @@
       "kleur": "Zwart",
       "categorie": "Leggings",
       "pastBij": ["js1", "trui3"]
+    },
+    {
+      "id": "st1",
+      "type": "Sporttop",
+      "beschrijving": "Ademende sporttop, materiaal: synthetisch, kleur: wit",
+      "kleur": "Wit",
+      "categorie": "Tops",
+      "pastBij": ["lggn1"]
+    },
+    {
+      "id": "ts2",
+      "type": "T-shirt",
+      "beschrijving": "Casual T-shirt, materiaal: katoen, kleur: grijs",
+      "kleur": "Grijs",
+      "categorie": "Tops",
+      "pastBij": ["lggn1"]
+    },
+    {
+      "id": "ct1",
+      "type": "Crop Top",
+      "beschrijving": "Stijlvolle crop top, materiaal: katoen, kleur: zwart",
+      "kleur": "Zwart",
+      "categorie": "Tops",
+      "pastBij": ["lggn1"]
+    },
+    {
+      "id": "ss1",
+      "type": "Sweatshirt",
+      "beschrijving": "Comfortabel sweatshirt, materiaal: katoen, kleur: blauw",
+      "kleur": "Blauw",
+      "categorie": "Tops",
+      "pastBij": ["lggn1"]
     }
   ]
 }
