@@ -55,14 +55,21 @@ Voor de ontwikkeling van deze applicatie gebruik ik de JavaScript-runtime 'Node.
 
 ## Week 4 Feedback verwerken + Laatste test
 ### Activieteiten:
-- Ik ben bezig geweest met het opnieuw bedenken van de manier waarop Petra door de app navigeert. Waar ze aan het begin het kledingtype moest selecteren, zoals een jas, broek of iets anders, gevolgd door het type kledingstuk dat ze daarbij wilde matchen voordat ze het specifieke kledingstuk kon selecteren, heb ik het nu een stuk simpeler gemaakt. Op de beginpagina heb ik alle radio buttons vervangen door links. Dus als zij iets ziet wat ze wil, hoeft ze er maar een keer op te klikken. Dit lost ook het probleem op dat zij had met het door elk item moeten tabben voordat ze verder kon gaan.
-- Ook heb ik de resultaten aangepast; het is bijvoorbeeld niet meer nodig om een kledingtype te selecteren dat je wilt matchen. Ze klikt nu op een specifiek kledingstuk, bijvoorbeeld een blauwe spijkerbroek, en dan zal het systeem automatisch alle kledingstukken laten zien die daarbij passe.
-- Ik wilde in de eerste instatie helemaal niks doen met de styling, maar na een feedback ronde met docenten werd duidelijk dat als er toevallig iemand mee zat te kijken die Petra aan het helpen was dan zou die gene ook bijna niet kunnen snappen wat er gebeurd op de pagina. Daarom ga ik de styling aanpassen zodat het ook voor mensen die kunnen zien duidelijk is waar ze zijn op de website.
-- Ik wil ook proberen om een functie in te bouwen die er voor zorgt dat Petra meerdere sets kleding kan selecteren, dus als ze een kledingstuk heeft geselecteerd dat ze dan opnieuw een set kan maken. Deze sets moeten allemaal opgeslagen blijven zodat ze aan het eind een totale lijst kan vinden met kleding die goed bij elkaar past.
+- Ik ben bezig geweest met het opnieuw bedenken van de manier waarop Petra door de app navigeert. Waar ze aan het begin het kledingtype moest selecteren, zoals een jas, broek of iets anders, gevolgd door het type kledingstuk dat ze daarbij wilde matchen voordat ze het specifieke kledingstuk kon selecteren, heb ik het nu een stuk simpeler gemaakt. Op de beginpagina heb ik alle radio buttons vervangen door links. Dus als zij iets ziet wat ze wil, hoeft ze er maar één keer op te klikken. Dit lost ook het probleem op dat zij had met het door elk item moeten tabben voordat ze verder kon gaan.
+- Ook heb ik de resultaten aangepast; het is bijvoorbeeld niet meer nodig om een kledingtype te selecteren dat je wilt matchen. Ze klikt nu op een specifiek kledingstuk, bijvoorbeeld een blauwe spijkerbroek, en dan zal het systeem automatisch alle kledingstukken laten zien die daarbij passen.
+- Ik wilde in de eerste instantie helemaal niets doen met de styling, maar na een feedbackronde met docenten werd duidelijk dat als er toevallig iemand mee zat te kijken die Petra aan het helpen was, diegene ook bijna niet zou kunnen snappen wat er gebeurt op de pagina. Daarom ga ik de styling aanpassen zodat het ook voor mensen die kunnen zien duidelijk is waar ze zijn op de website.
+- Ik wil ook proberen om een functie in te bouwen die ervoor zorgt dat Petra meerdere sets kleding kan selecteren, dus als ze een kledingstuk heeft geselecteerd, dat ze dan opnieuw een set kan maken. Deze sets moeten allemaal opgeslagen blijven zodat ze aan het eind een totale lijst kan vinden met kleding die goed bij elkaar past.
 
   
 ## Test Resultaten Petra:
-- 
+- Petra vond het heel fijn dat ze niet meer door elke radio button heen hoefde te gaan. Dit zorgde er ook voor dat ze de weg op de pagina een stuk beter kon vinden dan voorheen. Het was voor haar duidelijk wat er wanneer moest gebeuren, maar ze miste een beetje de feitelijke beschrijving van de kledingstukken. Ze vertelde namelijk dat het voor haar heel lastig is om te kunnen bepalen of een jurk bijvoorbeeld vrolijk is; wat is vrolijk? Het werkt voor haar veel beter als ze niet het woord 'vrolijk' hoort, maar bijvoorbeeld een jurk met een felgele kleur en een zonnebloempatroon. Dan kan ze zelf bepalen of zij dit een vrolijke jurk vindt of niet.
+- Petra miste weer aan het einde een knop om een nieuwe set te selecteren dit was de vorige keer ook al het geval.
+- Ze vond het ook jammer dat als er bijvoorbeeld niks bij het kledingstuk dat zij had geselecteerd paste dat ze nieuwe kledingstukken toe kon voegen. Ze miste een manier om nieuwe dingen toe te voegen en om eventueel oude dingen aan te passen of te verwijderen.
+
+## Wat zou ik doen als ik meer tijd had?
+- Ik zou allereerst een functie maken die er voor zorgt dat Petra zelf nieuwe kledingstukken toe kan voegen, bewerken of verwijderen.
+- Ook zou ik een random outfit selector toe willen voegen. Petra vertelde aan het begin dat ze soms helemaal geen inspiratie heeft en dat een optie om random een outfit te genereren een goede oplossing zou zijn voor dit probleen.
+- Ik zou ook een menu willen waar de opties "Kledingkast bewerken", "Nieuwe outfit samenstellen" en "Random outfit samenstellen" in zitten. Iets wat het wat meer een geheel maakt
 
 
 
