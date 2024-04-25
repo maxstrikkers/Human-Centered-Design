@@ -43,7 +43,6 @@ Voor de ontwikkeling van deze applicatie gebruik ik de JavaScript-runtime 'Node.
 - Ook wilde ik iets doen aan het feit dat Petra door alle radio buttons heen moest gaan om naar het volgende onderdeel te komen, maar dat bleek lastiger dan ik dacht. Ik had het werkend op de computer, maar uit de test bleek dat het heel anders werkt op mobiel. Dit omdat als je met de screenreader naar links, rechts, boven of beneden beweegt hij dit ziet als een pijltje en niet als een tabje.
 - Tot slot er voor zorgen dat er een manier is om kleding te matchen met elkaar.
 
-
 ### Test resultaten Petra: 
 - Toen Petra ging testen bleek al meteen dat ik het probleem dat ze door elke radio button heen moest gaan niet op had gelost, hoewel het op mijn computer welk werkte kwam ik er achter dat het op de telefoon een heel stuk anders werkt. Dit heb ik hiervoor ook al beschreven. Petra hoorde zo veel verschillende categorieën dat ze bijna niet meer wist wat ze nou had geselecteerd. Dit is natuurlijk niet ideaal.
 - Ook snapte ze niet heel goed wat er dan moest gebeuren als je kledingstukken had geselecteerd. Ze dacht dat het een kwestie was van op het type kleding klikken en dat ze dan automatisch naar de volgende pagina zou gaan, terwijl er eerst nog op de submit knop gedrukt moest worden. Dit was lastig voor haar omdat ze dat niet gewend was.
@@ -57,9 +56,13 @@ Voor de ontwikkeling van deze applicatie gebruik ik de JavaScript-runtime 'Node.
 ## Week 4 Feedback verwerken + Laatste test
 ### Activieteiten:
 - Ik ben bezig geweest met het opnieuw bedenken van de manier waarop Petra door de app navigeert. Waar ze aan het begin het kledingtype moest selecteren, zoals een jas, broek of iets anders, gevolgd door het type kledingstuk dat ze daarbij wilde matchen voordat ze het specifieke kledingstuk kon selecteren, heb ik het nu een stuk simpeler gemaakt. Op de beginpagina heb ik alle radio buttons vervangen door links. Dus als zij iets ziet wat ze wil, hoeft ze er maar een keer op te klikken. Dit lost ook het probleem op dat zij had met het door elk item moeten tabben voordat ze verder kon gaan.
-- Ook heb ik de resultaten aangepast; het is bijvoorbeeld niet meer nodig om een kledingtype te selecteren dat je wilt matchen. Ze klikt nu op een specifiek kledingstuk, bijvoorbeeld een blauwe spijkerbroek, en dan zal het systeem automatisch alle kledingstukken laten zien die daarbij passen.
+- Ook heb ik de resultaten aangepast; het is bijvoorbeeld niet meer nodig om een kledingtype te selecteren dat je wilt matchen. Ze klikt nu op een specifiek kledingstuk, bijvoorbeeld een blauwe spijkerbroek, en dan zal het systeem automatisch alle kledingstukken laten zien die daarbij passe.
+- Ik wilde in de eerste instatie helemaal niks doen met de styling, maar na een feedback ronde met docenten werd duidelijk dat als er toevallig iemand mee zat te kijken die Petra aan het helpen was dan zou die gene ook bijna niet kunnen snappen wat er gebeurd op de pagina. Daarom ga ik de styling aanpassen zodat het ook voor mensen die kunnen zien duidelijk is waar ze zijn op de website.
+- Ik wil ook proberen om een functie in te bouwen die er voor zorgt dat Petra meerdere sets kleding kan selecteren, dus als ze een kledingstuk heeft geselecteerd dat ze dan opnieuw een set kan maken. Deze sets moeten allemaal opgeslagen blijven zodat ze aan het eind een totale lijst kan vinden met kleding die goed bij elkaar past.
 
-
+  
+## Test Resultaten Petra:
+- 
 
 
 
