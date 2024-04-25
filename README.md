@@ -74,7 +74,13 @@ Voor de ontwikkeling van deze applicatie gebruik ik de JavaScript-runtime 'Node.
 
 
 # Conclusie
+Dit procesverslag laat goed zien hoe ik me door het project heen gewerkt heb, waarbij ik een webapplicatie ontwikkelde die helemaal afgestemd was op de behoeften van Petra, een blinde gebruiker. Dit was een heel ander soort project dan ik gewend ben, omdat ik echt vanaf nul moest beginnen met nadenken over design en gebruiksgemak vanuit het perspectief van iemand die de app niet kan zien. 
 
+In het begin maakte ik nogal wat aannames over wat ik dacht dat handig zou zijn, maar veel van die aannames bleken niet te kloppen. Petra's wekelijkse testsessies waren echt heel waardevol. Elke keer dat zij kwam testen, leerde ik weer iets nieuws over hoe zij met de app omging, en elke feedbackronde hielp mij om betere keuzes te maken in het design. Dit heeft me laten realiseren hoe belangrijk het is om continu te testen en te leren van je gebruikers, vooral als je iets maakt voor mensen met specifieke behoeften.
+
+Door de tests met Petra en steeds haar input te gebruiken om de app te verbeteren, heb ik veel beter leren begrijpen hoe ik toegankelijke applicaties kan ontwerpen. Het was soms echt een uitdaging om de juiste balans te vinden tussen wat technisch mogelijk is en wat het beste werkt voor Petra, maar het is gelukt om een app te maken die zij nu echt kan gebruiken. Dit project heeft me veel geleerd over het belang van toegankelijkheid in webdesign en hoe je als ontwikkelaar altijd moet blijven luisteren naar de mensen voor wie je iets maakt.
+
+Al met al, dit project heeft mij niet alleen geholpen om mijn vaardigheden te verbeteren, maar het heeft mij ook waardevolle inzichten gegeven in hoe ik als ontwikkelaar het beste kan voldoen aan de eisen van gebruikers met speciale behoeften. Ik kijk ernaar uit om deze lessen toe te passen in mijn toekomstige projecten, waarbij gebruikerservaring en toegankelijkheid een grotere rol zullen spelen voor mij dan dat ze eerst deden.
 
 
 
