@@ -69,7 +69,11 @@ Voor de ontwikkeling van deze applicatie gebruik ik de JavaScript-runtime 'Node.
 ## Wat zou ik doen als ik meer tijd had?
 - Ik zou allereerst een functie maken die er voor zorgt dat Petra zelf nieuwe kledingstukken toe kan voegen, bewerken of verwijderen.
 - Ook zou ik een random outfit selector toe willen voegen. Petra vertelde aan het begin dat ze soms helemaal geen inspiratie heeft en dat een optie om random een outfit te genereren een goede oplossing zou zijn voor dit probleen.
-- Ik zou ook een menu willen waar de opties "Kledingkast bewerken", "Nieuwe outfit samenstellen" en "Random outfit samenstellen" in zitten. Iets wat het wat meer een geheel maakt
+- Ik zou ook een menu willen waar de opties "Kledingkast bewerken", "Nieuwe outfit samenstellen" en "Random outfit samenstellen" in zitten. Iets wat het wat meer een geheel maakt.
+- Ik zou tot slot nog een pagina willen maken waar al haar eerder gemaakte combinaties in staan, compleet met een verwijder paar of verwijder alles knop.
+
+
+# Conclusie
 
 
 
